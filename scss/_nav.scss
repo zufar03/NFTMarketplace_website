@@ -1,0 +1,42 @@
+.nav {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  // border: 1px solid #fff;
+
+  ul {
+    display: flex;
+    gap: 40px;
+    li {
+      a {
+        font-style: normal;
+        font-size: 16px;
+        color: #fff;
+        font-weight: 400;
+        transition: all 1s linear;
+
+        &:hover {
+          border: 1px solid #d6ef0e;
+          border-top: none;
+          border-right: none;
+          border-left: none;
+        }
+      }
+    }
+  }
+
+  button {
+    height: 48px;
+    padding: 12px 40px;
+    border-radius: 8px;
+    background-color: #d6ef0e;
+    border: none;
+    cursor: pointer;
+
+    a {
+      color: #fff;
+    }
+  }
+}

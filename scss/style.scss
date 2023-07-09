@@ -1,0 +1,15 @@
+@import "./general";
+@import "./nav";
+@import "./block/amazing";
+@import "./block/create";
+@import "./block/discover";
+@import "./block/popular";
+@import "./block/subscribe";
+@import "./footer";
+
+.contener{
+    width: 100%;
+    height: auto;
+    padding: 28px 80px 70px 80px;
+    background: var(--background-background-1, #090F1D);
+}
